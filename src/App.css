@@ -31,7 +31,7 @@
   color: #ffffff;
 }
 .hero-items {
-  border: 2px solid rgb(207, 68, 68);
+  /* border: 2px solid rgb(207, 68, 68); */
   margin-left: 70px;
   margin-top: 120px;
 }
@@ -48,15 +48,16 @@
   text-align: center;
   color: #ffffff;
   font-family: "Raleway", Sans-serif;
-  font-size: 200px;
+  font-size: 150px;
   line-height: 1px;
   margin-top: 90px;
+  margin-bottom: 90px;
 }
 
 .hero-icon {
   margin-left: 700px;
-  padding-top: 20px;
-  font-weight: 200rem;
+  margin-top: 1px;
+
   color: #ffffff;
   /* border: 2px solid rgb(207, 68, 68); */
 }

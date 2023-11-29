@@ -16,8 +16,8 @@ function Hero() {
           
           <p >BEST PLACE TO PLAY</p>
           <h1 >GOLF</h1>
+        <RxDividerHorizontal className="hero-icon" fontSize="80px"   />
         </div>
-        <RxDividerHorizontal className="hero-icon" />
 
         <p>
           Golf is a great sport, stress cure, business talk event & America’s
