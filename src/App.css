@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+.hero-container {
+  background-image: url("../public/assets/img/homebg.jpg");
+  background-repeat: no-repeat;
+  height: 110vh;
+}
+
+.logo {
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+.navbar {
+  /* border: 2px solid rgb(207, 68, 68); */
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 25px;
+
+  cursor: pointer;
+  font-family: "Raleway", Sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+
+  line-height: 1.5em;
+
+  color: #ffffff;
+}
+.hero-items {
+  border: 2px solid rgb(207, 68, 68);
+  margin-left: 70px;
+  margin-top: 120px;
+}
+.hero-title p {
+  text-align: center;
+  color: #ffffff;
+  font-family: "Raleway", Sans-serif;
+  font-size: 31px;
+  letter-spacing: 2px;
+  line-height: 1.1em;
+  margin-bottom: 0;
+}
+.hero-title h1 {
+  text-align: center;
+  color: #ffffff;
+  font-family: "Raleway", Sans-serif;
+  font-size: 200px;
+  line-height: 1px;
+  margin-top: 90px;
+}
+
+.hero-icon {
+  margin-left: 700px;
+  padding-top: 20px;
+  font-weight: 200rem;
+  color: #ffffff;
+  /* border: 2px solid rgb(207, 68, 68); */
+}
+
+/* HERO SECTION + NAVBAR COMPONENT */
