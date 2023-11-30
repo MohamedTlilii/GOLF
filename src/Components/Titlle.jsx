@@ -1,5 +1,4 @@
 import React from "react";
-
 function Titlle(props) {
   const titleStyle = {
     color: props.textColor,
@@ -15,6 +14,7 @@ function Titlle(props) {
       <h2 style={titleStyle}>{props.content}</h2>
       
     </div>
+   
   );
 }
 

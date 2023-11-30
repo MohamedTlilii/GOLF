@@ -88,9 +88,12 @@
 .intro-container {
   background-image: url("../public/assets/img/img2.jpg");
   background-repeat: no-repeat;
-  height: 150vh;
+  height: 90vh;
+  background-color: black;
 
-  /* border: solid black 2px; */
+  border: solid rgb(215, 48, 48) 2px;
+  padding: 100px;
+  margin-bottom: 100px;
 }
 .tittle {
   font-size: 51px;
@@ -107,4 +110,27 @@
 
   color: rgb(144, 179, 81);
   /* border: 2px solid rgb(207, 68, 68); */
+}
+.intro {
+  border: 2px solid rgb(207, 68, 68);
+}
+.intro h3 {
+  color: #2f2c2f;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 34.98px;
+  letter-spacing: 0.44px;
+  width: 500px;
+  margin-left: 600px;
+
+  /* border: 2px solid rgb(207, 68, 68); */
+}
+.intro p {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.48px;
+  width: 530px;
+  margin-left: 600px;
 }
