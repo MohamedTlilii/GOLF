@@ -5,7 +5,7 @@
 .hero-container {
   background-image: url("../public/assets/img/homebg.jpg");
   background-repeat: no-repeat;
-  height: 110vh;
+  height: 150vh;
 }
 
 .logo {
@@ -19,11 +19,11 @@
   display: flex;
   justify-content: center;
   list-style: none;
-  gap: 25px;
+  gap: 34px;
 
   cursor: pointer;
-  font-family: "Raleway", Sans-serif;
-  font-size: 13px;
+
+  font-size: 15px;
   font-weight: 600;
 
   line-height: 1.5em;
@@ -32,7 +32,7 @@
 }
 .hero-items {
   /* border: 2px solid rgb(207, 68, 68); */
-  margin-left: 70px;
+  margin-left: 60px;
   margin-top: 120px;
 }
 .hero-title p {
@@ -48,18 +48,63 @@
   text-align: center;
   color: #ffffff;
   font-family: "Raleway", Sans-serif;
-  font-size: 150px;
+  font-size: 180px;
   line-height: 1px;
   margin-top: 90px;
   margin-bottom: 90px;
 }
 
 .hero-icon {
-  margin-left: 700px;
+  margin-left: 895px;
   margin-top: 1px;
+  font-size: 70px;
 
   color: #ffffff;
   /* border: 2px solid rgb(207, 68, 68); */
 }
+.para {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 400;
+  text-align: center;
+  width: 450px;
+  margin-left: 700px;
+  margin-bottom: 50px;
+}
+.btn {
+  border-radius: 55px;
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: gray;
+}
 
 /* HERO SECTION + NAVBAR COMPONENT */
+
+/* INTO SECITION 
+*/
+.intro-container {
+  background-image: url("../public/assets/img/img2.jpg");
+  background-repeat: no-repeat;
+  height: 150vh;
+
+  /* border: solid black 2px; */
+}
+.tittle {
+  font-size: 51px;
+  font-weight: 400;
+  line-height: 1.2em;
+  letter-spacing: 2.04px;
+  /* border: 2px solid rgb(207, 68, 68); */
+}
+
+.intro-icon {
+  margin-left: 595px;
+  position: relative;
+  bottom: 45px;
+
+  color: rgb(144, 179, 81);
+  /* border: 2px solid rgb(207, 68, 68); */
+}
