@@ -5,7 +5,7 @@
 .hero-container {
   background-image: url("../public/assets/img/homebg.jpg");
   background-repeat: no-repeat;
-  height: 150vh;
+  height: 100vh;
 }
 
 .logo {
@@ -48,14 +48,15 @@
   text-align: center;
   color: #ffffff;
   font-family: "Raleway", Sans-serif;
-  font-size: 180px;
+  font-size: 200px;
   line-height: 1px;
   margin-top: 90px;
   margin-bottom: 90px;
+  margin-right: 30px;
 }
 
 .hero-icon {
-  margin-left: 895px;
+  margin-left: 880px;
   margin-top: 1px;
   font-size: 70px;
 
@@ -68,7 +69,7 @@
   font-weight: 400;
   text-align: center;
   width: 450px;
-  margin-left: 700px;
+  margin-left: 680px;
   margin-bottom: 50px;
 }
 .btn {
@@ -76,6 +77,7 @@
   width: 180px;
   height: 60px;
   cursor: pointer;
+  position: relative;
 }
 .btn:hover {
   background-color: gray;
@@ -88,12 +90,10 @@
 .intro-container {
   background-image: url("../public/assets/img/img2.jpg");
   background-repeat: no-repeat;
-  height: 90vh;
-  background-color: black;
+  height: 100vh;
 
-  border: solid rgb(215, 48, 48) 2px;
+  /* border: solid rgb(87, 215, 48) 2px; */
   padding: 100px;
-  margin-bottom: 100px;
 }
 .tittle {
   font-size: 51px;
@@ -105,14 +105,13 @@
 
 .intro-icon {
   margin-left: 595px;
-  position: relative;
   bottom: 45px;
 
   color: rgb(144, 179, 81);
   /* border: 2px solid rgb(207, 68, 68); */
 }
 .intro {
-  border: 2px solid rgb(207, 68, 68);
+  /* border: 2px solid rgb(207, 68, 68); */
 }
 .intro h3 {
   color: #2f2c2f;
@@ -133,4 +132,18 @@
   letter-spacing: 0.48px;
   width: 530px;
   margin-left: 600px;
+}
+/* service SECITION 
+*/
+.service-container {
+  background-image: url("../public/assets/img/img3.jpg");
+  background-repeat: no-repeat;
+  height: 110vh;
+  border: 2px solid rgb(207, 68, 68);
+}
+.service-icon {
+  margin-left: 1180px;
+  bottom: 45px;
+
+  color: rgb(144, 179, 81);
 }

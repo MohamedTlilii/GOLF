@@ -35,18 +35,19 @@ function Intro() {
         fontSize="16px"
         fontWeight="700"
         letterSpacing="2px"
-        // bgColor="rgb(144, 179, 81)"
+        bgColor="rgb(144, 179, 81)"
       />
       <Button
         color="black"
         width="150px"
         content=" GALLERY"
         marginLeft="760px"
-        marginBottom="20px"
         textAlign="center"
         fontSize="16px"
         fontWeight="700"
         letterSpacing="2px"
+        marginBottom="10px"
+        
         // bgColor="rgb(144, 179, 81)"
       />
     </div>

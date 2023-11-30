@@ -2,7 +2,8 @@ import React from "react";
 function Titlle(props) {
   const titleStyle = {
     color: props.textColor,
-
+    marginTop : props.marginTop,
+    marginBottom : props.marginBottom,
     fontSize: props.fontSize,
     fontWeight: props.fontWeight,
 

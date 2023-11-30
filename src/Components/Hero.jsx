@@ -32,12 +32,12 @@ function Hero() {
           color="white"
           width="150px"
           content="JOIN US"
-          marginLeft="850px"
+          marginLeft="840px"
           textAlign="center"
           fontSize="16px"
           fontWeight="700"
           letterSpacing="2px"
-          // bgColor="rgb(144, 179, 81)"
+          bgColor="rgb(144, 179, 81)"
         />
       </div>
     </div>
