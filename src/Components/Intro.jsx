@@ -46,7 +46,7 @@ function Intro() {
         fontSize="16px"
         fontWeight="700"
         letterSpacing="2px"
-        marginBottom="10px"
+        marginTop="-30px"
         
         // bgColor="rgb(144, 179, 81)"
       />

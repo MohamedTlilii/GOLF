@@ -106,7 +106,7 @@
 .intro-icon {
   margin-left: 595px;
   bottom: 45px;
-
+  margin-top: -40px ;
   color: rgb(144, 179, 81);
   /* border: 2px solid rgb(207, 68, 68); */
 }
@@ -121,7 +121,7 @@
   letter-spacing: 0.44px;
   width: 500px;
   margin-left: 600px;
-
+margin-top: -20px ;
   /* border: 2px solid rgb(207, 68, 68); */
 }
 .intro p {
@@ -139,11 +139,24 @@
   background-image: url("../public/assets/img/img3.jpg");
   background-repeat: no-repeat;
   height: 110vh;
-  border: 2px solid rgb(207, 68, 68);
+  /* border: 2px solid rgb(207, 68, 68); */
+  margin-top: -66px;
 }
 .service-icon {
   margin-left: 1180px;
   bottom: 45px;
 
   color: rgb(144, 179, 81);
+}
+.number {
+  font-size: 50px;
+  color: gray;
+
+}
+.service-titlle {
+  color: #757575;
+    
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
 }
