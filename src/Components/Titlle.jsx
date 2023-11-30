@@ -1,21 +1,18 @@
 import React from "react";
-function Titlle(props) {
-  const titleStyle = {
-    color: props.textColor,
-    marginTop : props.marginTop,
-    marginBottom : props.marginBottom,
-    fontSize: props.fontSize,
-    fontWeight: props.fontWeight,
+import { RxDividerHorizontal } from "react-icons/rx";
 
-    width: props.width,
-    marginLeft: props.marginLeft,
-  };
+function Titlle(props) {
   return (
     <div className="tittle">
-      <h2 style={titleStyle}>{props.content}</h2>
-      
+      <h2
+        style={{ color: `${props.color}`, backgroundColor: `${props.bgColor}` }}
+      >
+        {props.content}
+      </h2>
+      <RxDividerHorizontal className="icon-titlle"
+        
+      />
     </div>
-   
   );
 }
 

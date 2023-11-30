@@ -20,25 +20,15 @@ function Hero() {
         <div className="hero-title">
           <p>BEST PLACE TO PLAY</p>
           <h1>GOLF</h1>
-          <RxDividerHorizontal className="hero-icon" fontSize="80px" />
+          <div className="icon-box">
+            <RxDividerHorizontal className="hero-icon" fontSize="80px" />
+          </div>
         </div>
-
         <p className="para">
           Golf is a great sport, stress cure, business talk event & America’s
           finest pastime!
         </p>
-
-        <Button
-          color="white"
-          width="150px"
-          content="JOIN US"
-          marginLeft="840px"
-          textAlign="center"
-          fontSize="16px"
-          fontWeight="700"
-          letterSpacing="2px"
-          bgColor="rgb(144, 179, 81)"
-        />
+        <Button color="white" bgColor="rgb(144, 179, 81)" content="JOIN US" />
       </div>
     </div>
   );
